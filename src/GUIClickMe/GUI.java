@@ -1,3 +1,5 @@
+package GUIClickMe;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -15,7 +17,7 @@ public class GUI implements ActionListener {
         frame = new JFrame();
 
         JButton button = new JButton("Click me");
-        button.addActionListener(this); //This is so the GUI knows when the button is clicked
+        button.addActionListener(this); //This is so the GUIClickMe.GUI knows when the button is clicked
         label = new JLabel("Number of clicks: 0");
 
         JPanel panel = new JPanel();
@@ -27,7 +29,7 @@ public class GUI implements ActionListener {
 
         frame.add(panel, BorderLayout.CENTER); //set the panel to the frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //set what happens when they close the frame
-        frame.setTitle("Our GUI"); //set title
+        frame.setTitle("Our GUIClickMe.GUI"); //set title
         frame.pack(); //set the window to match a  certain size
         frame.setVisible(true); //set the window to be visible and in focus
 

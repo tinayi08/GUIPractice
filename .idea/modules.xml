@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FirstGUIPractice.iml" filepath="$PROJECT_DIR$/FirstGUIPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUIPractice.iml" filepath="$PROJECT_DIR$/GUIPractice.iml" />
     </modules>
   </component>
 </project>
